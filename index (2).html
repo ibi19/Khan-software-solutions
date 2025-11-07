@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khan Software Solutions | Building Businesses Digitally</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+    body {background-color: #0b0e14; color: #e5e8ef; overflow-x: hidden;}
+    header {display: flex; justify-content: space-between; align-items: center; padding: 25px 8%; background: rgba(10, 14, 20, 0.8); position: fixed; width: 100%; top: 0; z-index: 1000; backdrop-filter: blur(10px);}
+    .logo {font-size: 1.6rem; font-weight: 700; color: #1a73e8; letter-spacing: 1px;}
+    nav ul {display: flex; list-style: none; gap: 25px;}
+    nav ul li a {text-decoration: none; color: #e5e8ef; font-weight: 500; transition: 0.3s;}
+    nav ul li a:hover {color: #1a73e8;}
+    .hero {height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; flex-direction: column; background: linear-gradient(180deg, rgba(10,14,20,0.9) 0%, rgba(13,18,30,1) 100%); padding: 0 10%;}
+    .hero h1 {font-size: 3rem; font-weight: 700; color: #ffffff; margin-bottom: 20px;}
+    .hero p {color: #b0b3c1; max-width: 600px; margin: 0 auto 40px; line-height: 1.6;}
+    .btn-primary {background-color: #1a73e8; color: #fff; padding: 12px 32px; border: none; border-radius: 6px; font-weight: 600; cursor: pointer; transition: 0.3s; text-decoration: none;}
+    .btn-primary:hover {background-color: #1055b5; transform: translateY(-2px);}
+    section {padding: 100px 10%;}
+    .section-title {font-size: 2rem; text-align: center; color: #fff; margin-bottom: 50px; position: relative;}
+    .section-title::after {content: ""; position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); width: 60px; height: 3px; background-color: #1a73e8;}
+    .services {display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;}
+    .service-card {background: #11151e; border: 1px solid rgba(255,255,255,0.05); padding: 40px; width: 300px; border-radius: 10px; transition: 0.3s;}
+    .service-card:hover {transform: translateY(-5px); border-color: #1a73e8;}
+    .service-card h3 {color: #1a73e8; margin-bottom: 15px;}
+    .service-card p {color: #b0b3c1; font-size: 0.95rem; line-height: 1.6;}
+    footer {text-align: center; padding: 40px 10%; background-color: #0b0e14; border-top: 1px solid rgba(255,255,255,0.05); color: #9fa3b0;}
+    @media (max-width: 768px) {nav ul {display: none;} .hero h1 {font-size: 2.2rem;} .services {flex-direction: column; align-items: center;}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Khan Software Solutions</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Building Digital Empires for Tomorrow’s Businesses</h1>
+    <p>At Khan Software Solutions, we empower companies with cutting-edge software, innovative solutions, and world-class design to elevate their business into the digital future.</p>
+    <a href="#contact" class="btn-primary">Get Started</a>
+  </section>
+
+  <section id="about">
+    <h2 class="section-title">About Us</h2>
+    <p style="max-width:800px;margin:auto;text-align:center;color:#b0b3c1;line-height:1.7;">
+      Khan Software Solutions is a premier technology firm focused on crafting powerful digital solutions for businesses worldwide. 
+      From enterprise software to scalable web platforms, we deliver excellence that drives growth, innovation, and lasting impact. 
+      Our team blends creativity, engineering precision, and business strategy to help clients dominate their markets.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2 class="section-title">Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>Custom Software Development</h3>
+        <p>Enterprise-grade applications tailored to your business needs — secure, scalable, and performance-driven.</p>
+      </div>
+      <div class="service-card">
+        <h3>Web & Mobile Solutions</h3>
+        <p>Modern, responsive websites and mobile apps designed to engage customers and grow your digital footprint.</p>
+      </div>
+      <div class="service-card">
+        <h3>Business Strategy & Consulting</h3>
+        <p>Strategic digital consulting to help businesses transform ideas into scalable technology-driven enterprises.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Get In Touch</h2>
+    <p style="text-align:center; color:#b0b3c1;">Ready to elevate your business? Let’s talk about building something extraordinary.</p>
+    <div style="text-align:center; margin-top:30px;">
+      <a href="mailto:wjdnawaz@gmail.com" class="btn-primary">Contact Us</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Khan Software Solutions. All rights reserved.</p>
+  </footer>
+</body>
+</html>
